@@ -1,13 +1,13 @@
-import { Button } from "./components/ui/button";
+import Component1 from "./components/my-components/Component1";
+import Component2 from "./components/my-components/Component2";
+import Component3 from "./components/my-components/Component3";
+import { Toaster } from "./components/ui/sonner";
 
 function App() {
   return (
     <div>
-      <div className="p-10 flex flex-col gap-4">
-        <Button>Default Button</Button>
-        <Button variant="destructive">Delete</Button>
-        <Button variant="outline">Outline</Button>
-      </div>
+      <Component3 />
+      <Toaster />
     </div>
   );
 }
