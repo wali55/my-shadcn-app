@@ -1,6 +1,6 @@
-import Component1 from "./components/my-components/Component1";
-import Component2 from "./components/my-components/Component2";
-import Component3 from "./components/my-components/Component3";
+import Component1 from "./pages/Component1";
+import Component2 from "./pages/Component2";
+import Component3 from "./pages/Component3";
 import { Toaster } from "./components/ui/sonner";
 
 function App() {

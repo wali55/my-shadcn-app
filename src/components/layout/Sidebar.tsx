@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 const Sidebar = () => {
   return (
-    <div className="w-64 h-screen border-r p-4 bg-background">
+    <div className="w-64 h-screen border-r p-4 bg-background relative">
       <h1 className="text-xl font-bold mb-6">Dashboard</h1>
 
       <nav className="space-y-2">
@@ -21,7 +21,7 @@ const Sidebar = () => {
       </nav>
 
       <div className="absolute bottom-4 left-4 right-4">
-        <Button variant="destructive" className="w-fit">
+        <Button variant="destructive" className="w-full">
           <LogOut className="size-4 mr-2" /> Logout
         </Button>
       </div>
